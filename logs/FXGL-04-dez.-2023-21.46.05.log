@@ -1,0 +1,118 @@
+21:46:02.916 [main                     ] DEBUG Logger               - Configured Logger
+21:46:02.940 [main                     ] DEBUG GameApplication      - Logging settings
+Title: Naruto Ninja War
+Version: 1.0
+Width: 1280
+Height: 720
+Fullscreen: false
+Intro: false
+Profiling: false
+Single step:false
+App Mode: DEVELOPER
+Menu Key: ESCAPE
+Stage Style: DECORATED
+Scene Factory: class com.brendondias.game.launcher.NarutoNinjaWarApp$1
+
+21:46:03.331 [JavaFX Application Thread] DEBUG FXGLApplication      - Initializing FXGL
+21:46:03.337 [JavaFX Application Thread] INFO  Engine               - FXGL-17.3 (30.03.2023 11.49) on WINDOWS (J:20 FX:20)
+21:46:03.337 [JavaFX Application Thread] DEBUG Engine               - JRE Vendor Name: Oracle Corporation
+21:46:03.337 [JavaFX Application Thread] DEBUG Engine               - Running on OS: Windows 11 version 10.0
+21:46:03.338 [JavaFX Application Thread] DEBUG Engine               - Architecture: amd64
+21:46:03.338 [JavaFX Application Thread] INFO  Engine               - Source code and latest versions at: https://github.com/AlmasB/FXGL
+21:46:03.338 [JavaFX Application Thread] INFO  Engine               -       Ask questions and discuss at: https://github.com/AlmasB/FXGL/discussions
+21:46:03.338 [JavaFX Application Thread] INFO  Engine               -              Join the FXGL chat at: https://gitter.im/AlmasB/FXGL
+21:46:03.433 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Creating a JavaFX scene
+21:46:03.489 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Target settings size: 1280.0 x 720.0
+21:46:03.490 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Scaled scene size:    1280.0 x 720.0
+21:46:03.490 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Scaled ratio: (1.0, 1.0)
+21:46:03.491 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Set initial scene to FXGLStartupScene
+21:46:03.495 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Opening main window
+21:46:03.587 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Window border size: (14.4000244140625, 37.5999755859375)
+21:46:03.587 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Scaled size: 1280.0 x 720.0
+21:46:03.587 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Scaled ratio: (1.0, 1.0)
+21:46:03.587 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Scene size: 1280.0 x 720.0
+21:46:03.587 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Stage size: 1294.4000244140625 x 757.5999755859375
+21:46:03.597 [FXGL Background Thread 1 ] DEBUG Engine               - Initializing environment variables
+21:46:03.647 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - User app class for loading assets: class com.brendondias.game.launcher.NarutoNinjaWarApp
+21:46:03.647 [FXGL Background Thread 1 ] DEBUG GameApplicationServi - Applying CSS: fxgl_dark.css
+21:46:03.648 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/brend/.m2/repository/com/github/almasb/fxgl/17.3/fxgl-17.3.jar!/fxglassets/ui/css/fxgl_dark.css
+21:46:03.687 [FXGL Background Thread 1 ] DEBUG GameApplicationServi - Initializing application scenes
+21:46:03.718 [FXGL Background Thread 1 ] DEBUG GameWorld            - Game world initialized
+21:46:03.795 [FXGL Background Thread 1 ] DEBUG PhysicsWorld         - Physics world initialized: appHeight=720, physics.ppm=50,0
+21:46:03.796 [FXGL Background Thread 1 ] DEBUG PhysicsWorld         - Using strategy: BRUTE_FORCE
+21:46:03.806 [FXGL Background Thread 1 ] DEBUG GameScene            - Game scene initialized: 1280x720
+21:46:03.813 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/C:/Users/brend/IdeaProjects/MavenWorkspace/InitFXGL/target/classes/assets/textures/leafVillageIcon.png
+21:46:03.830 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/C:/Users/brend/IdeaProjects/MavenWorkspace/InitFXGL/target/classes/assets/textures/sandVillageIcon.png
+21:46:03.832 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/C:/Users/brend/IdeaProjects/MavenWorkspace/InitFXGL/target/classes/assets/textures/mistVillageIcon.png
+21:46:03.837 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/C:/Users/brend/IdeaProjects/MavenWorkspace/InitFXGL/target/classes/assets/textures/stoneVillageIcon.png
+21:46:03.839 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/C:/Users/brend/IdeaProjects/MavenWorkspace/InitFXGL/target/classes/assets/textures/cloudVillageIcon.png
+21:46:03.842 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/C:/Users/brend/IdeaProjects/MavenWorkspace/InitFXGL/target/classes/assets/textures/missingVillage.png
+21:46:03.855 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/C:/Users/brend/IdeaProjects/MavenWorkspace/InitFXGL/target/classes/assets/textures/skillsIcons/rasengan.gif
+21:46:03.882 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/C:/Users/brend/IdeaProjects/MavenWorkspace/InitFXGL/target/classes/assets/textures/skillsIcons/chidori.gif
+21:46:03.964 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/C:/Users/brend/IdeaProjects/MavenWorkspace/InitFXGL/target/classes/assets/textures/ninjaIcons/classicNarutoIcon200x200.png
+21:46:03.969 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/C:/Users/brend/IdeaProjects/MavenWorkspace/InitFXGL/target/classes/assets/textures/ninjaIcons/classicSasukeIcon200x200.png
+21:46:03.973 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/C:/Users/brend/IdeaProjects/MavenWorkspace/InitFXGL/target/classes/assets/textures/ninjaIcons/classicSakuraIcon200x200.png
+21:46:03.975 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/C:/Users/brend/IdeaProjects/MavenWorkspace/InitFXGL/target/classes/assets/textures/ninjaIcons/classicKakashiIcon200x200.png
+21:46:03.977 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/C:/Users/brend/IdeaProjects/MavenWorkspace/InitFXGL/target/classes/assets/textures/ninjaIcons/classicShikamaruIcon200x200.png
+21:46:03.982 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/C:/Users/brend/IdeaProjects/MavenWorkspace/InitFXGL/target/classes/assets/textures/ninjaIcons/classicInoIcon200x200.png
+21:46:03.985 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/C:/Users/brend/IdeaProjects/MavenWorkspace/InitFXGL/target/classes/assets/textures/ninjaIcons/classicChojiIcon200x200.png
+21:46:03.987 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/C:/Users/brend/IdeaProjects/MavenWorkspace/InitFXGL/target/classes/assets/textures/ninjaIcons/classicAsumaIcon200x200.png
+21:46:03.990 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/C:/Users/brend/IdeaProjects/MavenWorkspace/InitFXGL/target/classes/assets/textures/ninjaIcons/classicLeeIcon200x200.png
+21:46:03.992 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/C:/Users/brend/IdeaProjects/MavenWorkspace/InitFXGL/target/classes/assets/textures/ninjaIcons/classicNejiIcon200x200.png
+21:46:03.996 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/C:/Users/brend/IdeaProjects/MavenWorkspace/InitFXGL/target/classes/assets/textures/ninjaIcons/classicTentenIcon200x200.png
+21:46:04.000 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/C:/Users/brend/IdeaProjects/MavenWorkspace/InitFXGL/target/classes/assets/textures/ninjaIcons/classicGaiIcon200x200.png
+21:46:04.003 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/C:/Users/brend/IdeaProjects/MavenWorkspace/InitFXGL/target/classes/assets/textures/ninjaIcons/classicHinataIcon200x200.png
+21:46:04.007 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/C:/Users/brend/IdeaProjects/MavenWorkspace/InitFXGL/target/classes/assets/textures/ninjaIcons/classicKibaIcon200x200.png
+21:46:04.010 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/C:/Users/brend/IdeaProjects/MavenWorkspace/InitFXGL/target/classes/assets/textures/ninjaIcons/classicShinoIcon200x200.png
+21:46:04.013 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/C:/Users/brend/IdeaProjects/MavenWorkspace/InitFXGL/target/classes/assets/textures/ninjaIcons/classicKurenaiIcon200x200.png
+21:46:04.015 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/C:/Users/brend/IdeaProjects/MavenWorkspace/InitFXGL/target/classes/assets/textures/ninjaIcons/classicGaaraIcon200x200.png
+21:46:04.018 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/C:/Users/brend/IdeaProjects/MavenWorkspace/InitFXGL/target/classes/assets/textures/ninjaIcons/classicTemariIcon200x200.png
+21:46:04.020 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/C:/Users/brend/IdeaProjects/MavenWorkspace/InitFXGL/target/classes/assets/textures/ninjaIcons/classicKankuroIcon200x200.png
+21:46:04.022 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/C:/Users/brend/IdeaProjects/MavenWorkspace/InitFXGL/target/classes/assets/textures/ninjaIcons/classicBakiIcon200x200.png
+21:46:04.033 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/C:/Users/brend/IdeaProjects/MavenWorkspace/InitFXGL/target/classes/assets/textures/backgroundGif.gif
+21:46:04.540 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/C:/Users/brend/IdeaProjects/MavenWorkspace/InitFXGL/target/classes/assets/music/musicMenu1.wav
+21:46:04.689 [FXGL Background Thread 1 ] DEBUG FXGL.DefaultMenu     - createMenuBodyGameMenu()
+21:46:04.699 [FXGL Background Thread 1 ] DEBUG FXGL.DefaultMenu     - createOptionsMenu()
+21:46:04.707 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/brend/.m2/repository/com/github/almasb/fxgl/17.3/fxgl-17.3.jar!/fxglassets/textures/particles/smoke.png
+21:46:04.766 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/brend/.m2/repository/com/github/almasb/fxgl/17.3/fxgl-17.3.jar!/fxglassets/textures/particles/trace_horizontal.png
+21:46:04.778 [FXGL Background Thread 1 ] DEBUG GameApplicationServi - Application scenes initialized
+21:46:04.800 [FXGL Background Thread 1 ] DEBUG SystemBundleService  - Loading FXGL system data
+21:46:04.807 [FXGL Background Thread 1 ] DEBUG FileSystemAccess     - Reading from: C:\Users\brend\IdeaProjects\MavenWorkspace\InitFXGL\system\fxgl.bundle
+21:46:04.820 [FXGL Background Thread 1 ] DEBUG SystemBundleService  - Bundle FXGL: {}
+21:46:04.820 [FXGL Background Thread 1 ] DEBUG UpdaterService       - Checking for updates
+21:46:04.825 [FXGL Background Thread 4 ] DEBUG FXGLApplication      - Loading fonts
+21:46:04.826 [FXGL Background Thread 4 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/brend/.m2/repository/com/github/almasb/fxgl/17.3/fxgl-17.3.jar!/fxglassets/ui/fonts/VarelaRound-Regular.ttf
+21:46:04.826 [FXGL Background Thread 1 ] DEBUG FXGLApplication      - Loading default localization
+21:46:04.827 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/brend/.m2/repository/com/github/almasb/fxgl/17.3/fxgl-17.3.jar!/fxglassets/languages/english.lang
+21:46:04.859 [FXGL Background Thread 1 ] INFO  FXGLApplication      - FXGL initialization took: 1,262 sec
+21:46:04.868 [JavaFX Application Thread] DEBUG Input                - Registered new binding: action0 - W
+21:46:04.869 [JavaFX Application Thread] DEBUG Input                - Registered new binding: action1 - S
+21:46:04.869 [JavaFX Application Thread] DEBUG Input                - Registered new binding: action2 - A
+21:46:04.870 [JavaFX Application Thread] DEBUG Input                - Registered new binding: action3 - D
+21:46:04.870 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Left - Left
+21:46:04.870 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Right - Right
+21:46:04.870 [JavaFX Application Thread] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/C:/Users/brend/IdeaProjects/MavenWorkspace/InitFXGL/target/classes/assets/textures/iconKunai.png
+21:46:04.883 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Screenshot - CTRL+8
+21:46:04.883 [JavaFX Application Thread] DEBUG Input                - Registered new binding: System info dump - CTRL+9
+21:46:04.884 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Restart - CTRL+R
+21:46:04.884 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Toggle Debug Camera - CTRL+7
+21:46:04.887 [JavaFX Application Thread] DEBUG LoopRunner           - Starting loop
+21:46:04.887 [JavaFX Application Thread] DEBUG LoopRunner           - Initializing JavaFX AnimationTimerLoop
+21:46:04.890 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+21:46:04.903 [JavaFX Application Thread] DEBUG GameApplicationServi - Removing overlay from FXGLStartupScene and adding to FXGLMainMenuDummyScene
+21:46:04.903 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - FXGLStartupScene -> FXGLMainMenuDummyScene
+21:46:04.904 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Push state: MainMenu
+21:46:04.904 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+21:46:04.907 [JavaFX Application Thread] DEBUG GameApplicationServi - Removing overlay from FXGLMainMenuDummyScene and adding to MainMenu
+21:46:04.907 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - FXGLMainMenuDummyScene -> MainMenu
+21:46:04.914 [FXGL Background Thread 4 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/brend/.m2/repository/com/github/almasb/fxgl/17.3/fxgl-17.3.jar!/fxglassets/ui/fonts/Abel-Regular.ttf
+21:46:04.916 [FXGL Background Thread 4 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/brend/.m2/repository/com/github/almasb/fxgl/17.3/fxgl-17.3.jar!/fxglassets/ui/fonts/TerminalLandMono-Regular.otf
+21:46:04.922 [FXGL Background Thread 4 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/brend/.m2/repository/com/github/almasb/fxgl/17.3/fxgl-17.3.jar!/fxglassets/ui/fonts/Courier-Prime.ttf
+21:46:04.937 [JavaFX Application Thread] DEBUG FXGLApplication      - Registering font factories with UI factory
+21:46:05.904 [JavaFX Application Thread] DEBUG FXGLApplication      - Exiting FXGL
+21:46:05.904 [JavaFX Application Thread] DEBUG LoopRunner           - Stopping loop
+21:46:05.904 [JavaFX Application Thread] DEBUG SystemBundleService  - Saving FXGL system data
+21:46:05.910 [JavaFX Application Thread] DEBUG FileSystemAccess     - Writing to: C:\Users\brend\IdeaProjects\MavenWorkspace\InitFXGL\system\fxgl.bundle
+21:46:05.912 [JavaFX Application Thread] DEBUG Async                - Shutting down background threads
+21:46:05.912 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Closing main window
+21:46:05.921 [JavaFX Application Thread] DEBUG Logger               - Closing Logger

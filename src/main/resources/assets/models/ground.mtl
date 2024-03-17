@@ -1,0 +1,12 @@
+# Blender 3.6.5 MTL File: 'None'
+# www.blender.org
+
+newmtl Material.001
+Ns 113.140526
+Ka 0.821818 0.821818 0.821818
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 9.449999
+d 1.000000
+illum 3
+map_Kd ground.png

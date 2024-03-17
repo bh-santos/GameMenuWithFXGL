@@ -1,0 +1,74 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.brendondias</groupId>
+  <artifactId>InitFXGL</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>Archetype - InitFXGL</name>
+  <url>http://maven.apache.org</url>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.github.almasb</groupId>
+      <artifactId>fxgl</artifactId>
+      <version>17.3</version>
+    </dependency>
+
+
+      <dependency>
+          <groupId>org.projectlombok</groupId>
+          <artifactId>lombok</artifactId>
+          <version>RELEASE</version>
+          <scope>compile</scope>
+      </dependency>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.30</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.almasb</groupId>
+      <artifactId>fxgl-effects</artifactId>
+      <version>11.12</version> <!-- Verifique a versão mais recente no repositório Maven -->
+    </dependency>
+
+    <dependency>
+      <groupId>com.github.almasb</groupId>
+      <artifactId>fxgl-entity</artifactId>
+      <version>17.3</version> <!-- Verifique a versão mais recente no repositório Maven -->
+    </dependency>
+  </dependencies>
+
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.10.1</version>
+        <configuration>
+          <release>11</release>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-maven-plugin</artifactId>
+        <version>0.0.8</version>
+        <configuration>
+          <stripDebug>true</stripDebug>
+          <compress>2</compress>
+          <noHeaderFiles>true</noHeaderFiles>
+          <noManPages>true</noManPages>
+          <launcher>Start-Game</launcher>
+          <jlinkImageName>mygame</jlinkImageName>
+          <jlinkZipName>mygame</jlinkZipName>
+          <mainClass>com.brendondias.game.launcher.NarutoNinjaWarApp</mainClass>
+        </configuration>
+      </plugin>
+
+    </plugins>
+  </build>
+</project>
